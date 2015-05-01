@@ -1,0 +1,22 @@
+{
+    "name": "jnjxp/html-format",
+    "type": "library",
+    "description": "helpers for html common format stuff",
+    "license": "AGPL-3.0",
+    "authors": [
+        {
+            "name": "jake johns",
+            "email": "jake@jakejohns.net"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "aura/html": "~2.1",
+        "nesbot/carbon": "~1.18"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jnjxp\\HtmlFormat\\": "src/"
+        }
+    }
+}
