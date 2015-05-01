@@ -79,8 +79,6 @@ abstract class AbstractHelper extends BaseHelper
         $attr = $this->escaper->attr(
             array_merge_recursive($this->attr, (array) $attr)
         );
-        $html = $this->indent(0, "<{$tag} {$attr}>{$content}</{$tag}>");
-        $this->setIndentLevel(0);
-        return $html;
+        return $this->indent(0, "<{$tag} {$attr}>{$content}</{$tag}>");
     }
 }
